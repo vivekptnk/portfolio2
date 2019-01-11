@@ -214,7 +214,33 @@ nav a{
 }
 
 .right-line-1 {
+    transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+}
 
+.right-line-2 {
+    transform: translateX(600px);
+    -webkit-transform: translateX(600px);
+}
+
+.right-line-3 {
+    transform: translateX(900px);
+    -webkit-transform: translateX(900px);
+}
+
+.left-line-1 {
+    transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+}
+
+.left-line-2 {
+    transform: translateX(-600px);
+    -webkit-transform: translateX(-600px);
+}
+
+.left-line-3 {
+    transform: translateX(-900px);
+    -webkit-transform: translateX(-900px);
 }
 /*
  * ─── FOOTER ─────────────────────────────────────────────────────────────────────
