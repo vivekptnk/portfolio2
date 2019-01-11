@@ -173,7 +173,7 @@ nav a{
     width: 120px;
     background-color: var(--main-black);
     position: absolute;
-    top: 30x;
+    top: 30px;
     left: 60px;
 }
 
@@ -186,15 +186,20 @@ nav a{
     height: 260px;
     width: 1000px;
     position: absolute;
-    top: -155px;
-    left: -545px;
+    top: -95px;
+    left: -472px;
     z-index: -1;
+}
+
+.pos {
+    right: -310px;
+    top: -100px;
 }
 
 .arrow {
     position: absolute;
-    right: 4px;
-    top: -155px;
+    right: -310px;
+    top: -100px;
 }
 
 /*
@@ -204,7 +209,7 @@ nav a{
     display: block;
     width: 1px;
     height: 100vh;
-    background-color: red;
+    background-color: var(--light-gray);
     position: fixed;
     top: 0;
     left: 50%;
@@ -245,6 +250,24 @@ nav a{
 /*
  * ─── FOOTER ─────────────────────────────────────────────────────────────────────
  */
+footer{
+    position: fixed;
+    bottom: 50px;
+    right: 5%;
+}
+
+.social {
+    position: fixed;
+    left: 5%;
+}
+
+.social > a {
+    margin-right: 60px;
+}
+
+footer > p .social > a{
+    font-weight: 500;
+}
 
 /*
  * ─── MOTION ─────────────────────────────────────────────────────────────────────
